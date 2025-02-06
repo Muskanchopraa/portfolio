@@ -1,8 +1,3 @@
-// File Name: Home.jsx
-// Student’s Name: Muskan Chopra
-// Student ID: 301446756
-// Date: 1 Feb 2025
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -11,10 +6,10 @@ const Home = () => {
     <div className="home-container text-center p-6">
       {/* Logo Image */}
       <img 
-        src="/assets/logo.webp"  // Correct path from public/assets
+        src="/logo1.jpg"  // Correct path from the public folder
         alt="Logo" 
-        className="w-40 h-auto mx-auto mb-6"
-         
+        style={{ width: '500px', height: 'auto' }}  // Inline style to set width and maintain aspect ratio
+        className="mx-auto mb-6"   // Reduced size of logo
       />
       
       <h1 className="text-4xl font-bold text-purple-700 mb-4">Welcome to My Portfolio</h1>

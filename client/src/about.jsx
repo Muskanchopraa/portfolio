@@ -9,7 +9,8 @@ export default function About() {
       
       <div className="flex flex-col md:flex-row items-center justify-center gap-8">
         <img 
-          className="w-10 h-10 object-cover rounded-full shadow-lg" 
+         style={{ width: '500px', height: 'auto' }}  // Inline style to set width and maintain aspect ratio
+         className="mx-auto mb-6" 
           src={myImg} 
           alt="Muskan Chopra" 
         />
