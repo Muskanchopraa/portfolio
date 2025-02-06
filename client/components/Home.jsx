@@ -6,7 +6,7 @@ const Home = () => {
     <div className="home-container text-center p-6">
       {/* Logo Image */}
       <img 
-        src="/logo1.jpg"  // Correct path from the public folder
+        src="/logo.jpg"  // Correct path from the public folder
         alt="Logo" 
         style={{ width: '500px', height: 'auto' }}  // Inline style to set width and maintain aspect ratio
         className="mx-auto mb-6"   // Reduced size of logo
