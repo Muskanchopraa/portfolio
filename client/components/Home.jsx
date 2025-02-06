@@ -5,16 +5,16 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo.jpg'; // ✅ Import the image from src/assets
 
 const Home = () => {
   return (
     <div className="home-container text-center p-6">
       {/* Logo Image */}
       <img 
-        src={logo}  // ✅ Use imported image
+        src="/assets/logo.webp"  // Correct path from public/assets
         alt="Logo" 
         className="w-40 h-auto mx-auto mb-6"
+         
       />
       
       <h1 className="text-4xl font-bold text-purple-700 mb-4">Welcome to My Portfolio</h1>
